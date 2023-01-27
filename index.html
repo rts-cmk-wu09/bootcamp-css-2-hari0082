@@ -5,21 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Informationen</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- min header starter her med logo og menu -->
     <header>
-      <!-- min header starter her med logo og menu -->
-      <figure>
-        <img src="" alt="logo" />
+      <figure class="logo-top">
+        <img src="/img/logo.png" alt="logo" id="logo-header" />
       </figure>
       <section class="menu">
-        <button>
-          <img src="" alt="burger" />
-          <p>menu</p>
-        </button>
+        <p>menu</p>
+        <button><img src="" alt="" />🍔</button>
+        <form action="search">🔍</form>
       </section>
-      <form action="search">🔍</form>
       <nav>
         <!-- liste med undersider + links -->
         <ul>
@@ -32,36 +30,43 @@
           <li>
             <a href="">Køb abonnement</a>
           </li>
+          <a href=""><img src="" alt="" class="login" />Log ind</a>
         </ul>
       </nav>
-      <section>
-        <a href=""><img src="" alt="bruger" />Log ind</a>
-      </section>
     </header>
     <section class="greyspace"></section>
-    <main>
+    <main class="container">
       <!-- her starter artikelen -->
-      <aside>
+      <aside class="venstre">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-          suscipit.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+          dolorum doloribus, maiores atque aut recusandae a reprehenderit
+          veritatis, fugit ipsam nostrum beatae eligendi, mollitia explicabo
+          aperiam ducimus omnis. Voluptate temporibus repudiandae repellendus
+          incidunt, odio tempore aliquid, sequi quis fuga repellat accusantium
+          iure laudantium? Aut assumenda cupiditate, nemo vero velit neque?
         </p>
       </aside>
       <article>
-        <p>abonnement <small>læsetid: 7 min.</small></p>
+        <p class="underrubrik">abonnement <span> læsetid: 7 min.</span></p>
         <h1>
           Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det
         </h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae enim
-          fuga aliquid debitis iure vel est at quas dolorum accusamus
-          cupiditate, eos quasi dolores numquam, exercitationem rem soluta
-          deleniti nemo sed ducimus deserunt error! Quas asperiores atque
-          accusantium debitis cum.
+        <p class="main-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempore
+          obcaecati corrupti sed hic necessitatibus optio iure. Optio
+          reprehenderit magni neque. Quam architecto voluptates dolor tempora!
+          Magnam molestiae laboriosam ipsa reiciendis illo placeat veniam
+          impedit unde, minus saepe deleniti voluptas velit odit eius distinctio
+          quidem natus nemo eligendi obcaecati maxime nam eaque! Quae incidunt
+          eos blanditiis pariatur vitae vel suscipit illum accusantium
+          reprehenderit animi, obcaecati alias eaque rem maxime dignissimos
+          voluptatem commodi possimus ducimus id dicta repellat tempora soluta
+          numquam!
         </p>
-        <img src="" alt="billede" />
+        <img src="/img/main img.png" alt="billede" id="mainpic" />
       </article>
-      <aside>
+      <aside class="asidetitel">
         <h3>Udland</h3>
         <img src="" alt="profilbillede" />
         <p>Navn</p>
@@ -291,7 +296,9 @@
         </ul>
       </section>
       <section>
-        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod!</small>
+        <small
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod!</small
+        >
         <button>Skriv til os</button>
       </section>
     </footer>
